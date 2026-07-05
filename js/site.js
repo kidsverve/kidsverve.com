@@ -55,7 +55,7 @@ function renderHeader(site) {
   header.innerHTML = `
     <div class="container site-header__inner">
       <a class="brand" href="index.html" aria-label="${esc(site.siteName)} home">
-        <span class="brand__logo" aria-hidden="true">${esc(site.logoEmoji || "🎨")}</span>
+        <span class="brand__logo" aria-hidden="true"><svg class="brand__star" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" fill="#ffd23f" stroke="#ff9f1c" stroke-width="0.7" stroke-linejoin="round"/><circle cx="9.7" cy="10.7" r="1" fill="#2b2d42"/><circle cx="14.3" cy="10.7" r="1" fill="#2b2d42"/><path d="M9.9 12.9c.7 1.2 3.5 1.2 4.2 0" fill="none" stroke="#2b2d42" stroke-width="0.9" stroke-linecap="round"/></svg></span>
         <span>
           <span class="brand__name">${esc(site.siteName)}</span><br>
           <span class="brand__tag">${esc(site.tagline || "")}</span>
