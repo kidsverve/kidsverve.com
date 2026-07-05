@@ -1,0 +1,49 @@
+{
+  "siteName": "KidsVerve",
+  "tagline": "Where kids' creativity comes alive",
+  "logoEmoji": "🎨",
+  "theme": {
+    "primary": "#ff5d8f",
+    "secondary": "#3ec6c6",
+    "accent": "#ffd23f",
+    "purple": "#7b6cf6",
+    "ink": "#2b2d42"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html", "icon": "🏠" },
+    { "label": "Drawings", "href": "drawings.html", "icon": "✏️" },
+    { "label": "Paintings", "href": "paintings.html", "icon": "🖌️" },
+    { "label": "Codings", "href": "codings.html", "icon": "💻" },
+    { "label": "About", "href": "about.html", "icon": "⭐" }
+  ],
+  "kids": [
+    { "id": "aadhav", "name": "Aadhav", "color": "#ff5d8f", "emoji": "🦸" },
+    { "id": "guest", "name": "Guest Artist", "color": "#7b6cf6", "emoji": "🌟" }
+  ],
+  "footer": {
+    "about": "KidsVerve is a joyful gallery celebrating the drawings, paintings, and coding projects made by kids. Every creation tells a story.",
+    "columns": [
+      {
+        "title": "Explore",
+        "links": [
+          { "label": "Drawings", "href": "drawings.html" },
+          { "label": "Paintings", "href": "paintings.html" },
+          { "label": "Codings", "href": "codings.html" }
+        ]
+      },
+      {
+        "title": "More",
+        "links": [
+          { "label": "About", "href": "about.html" },
+          { "label": "Home", "href": "index.html" }
+        ]
+      }
+    ],
+    "social": [
+      { "label": "YouTube", "icon": "▶️", "href": "#" },
+      { "label": "Instagram", "icon": "📸", "href": "#" },
+      { "label": "Email", "icon": "✉️", "href": "mailto:hello@kidsverve.com" }
+    ],
+    "copyright": "© {{year}} KidsVerve · Made with ❤️ by kids"
+  }
+}

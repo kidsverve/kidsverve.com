@@ -1,0 +1,33 @@
+{
+  "title": "Paintings",
+  "subtitle": "Watercolours, acrylics, and splashes of colour",
+  "items": [
+    {
+      "id": "p1",
+      "title": "Rainbow Garden",
+      "kid": "aadhav",
+      "date": "2026-06-02",
+      "image": "assets/paintings/rainbow-garden.jpg",
+      "description": "A bright watercolour garden bursting with flowers of every colour.",
+      "tags": ["watercolour", "nature"]
+    },
+    {
+      "id": "p2",
+      "title": "Starry Night Sky",
+      "kid": "guest",
+      "date": "2026-05-20",
+      "image": "assets/paintings/starry-night.jpg",
+      "description": "Swirling blues and yellows inspired by a night full of stars.",
+      "tags": ["acrylic", "sky"]
+    },
+    {
+      "id": "p3",
+      "title": "Happy Elephant",
+      "kid": "aadhav",
+      "date": "2026-04-10",
+      "image": "assets/paintings/happy-elephant.jpg",
+      "description": "A cheerful blue elephant splashing water with its trunk.",
+      "tags": ["animals"]
+    }
+  ]
+}

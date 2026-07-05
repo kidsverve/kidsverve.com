@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidsVerve · Where kids' creativity comes alive</title>
+  <meta name="description" content="KidsVerve is a joyful gallery of drawings, paintings, and coding projects made by kids.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎨%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="site-header"></header>
+
+  <main id="main">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div>
+          <span class="eyebrow">🎉 Welcome to KidsVerve</span>
+          <h1>Where kids' <span class="hl">creativity</span> comes alive</h1>
+          <p>A bright little gallery of drawings, paintings, and coding projects made by our young creators. Explore, play, and get inspired!</p>
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="drawings.html">Explore the gallery</a>
+            <a class="btn btn--ghost" href="codings.html">Play the games</a>
+          </div>
+        </div>
+        <div class="hero__art">
+          <span class="blob" aria-hidden="true">🎨</span>
+          <span class="floaty" aria-hidden="true">✏️</span>
+          <span class="floaty" aria-hidden="true">🖌️</span>
+          <span class="floaty" aria-hidden="true">💻</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Categories</span>
+          <h2>What would you like to explore?</h2>
+          <p>Pick a category and dive into the creations.</p>
+        </div>
+        <div class="cats" data-cats></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section__head">
+          <span class="eyebrow">Fresh off the easel</span>
+          <h2>Latest creations</h2>
+          <p>The newest drawings, paintings, and projects.</p>
+        </div>
+        <div class="gallery" data-latest></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>

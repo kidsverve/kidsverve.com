@@ -1,0 +1,33 @@
+{
+  "title": "Drawings",
+  "subtitle": "Pencil sketches, doodles, and line art made by our young artists",
+  "items": [
+    {
+      "id": "d1",
+      "title": "Sunset Over the Hills",
+      "kid": "aadhav",
+      "date": "2026-05-12",
+      "image": "assets/drawings/sunset-hills.jpg",
+      "description": "A calm evening scene with rolling hills and a big orange sun sinking behind them.",
+      "tags": ["nature", "landscape"]
+    },
+    {
+      "id": "d2",
+      "title": "Robo-Buddy",
+      "kid": "aadhav",
+      "date": "2026-04-28",
+      "image": "assets/drawings/robo-buddy.jpg",
+      "description": "A friendly robot with antenna ears and a heart-shaped screen.",
+      "tags": ["robots", "characters"]
+    },
+    {
+      "id": "d3",
+      "title": "Ocean Explorer",
+      "kid": "guest",
+      "date": "2026-03-15",
+      "image": "assets/drawings/ocean-explorer.jpg",
+      "description": "A submarine diving deep to meet colourful fish and a curious octopus.",
+      "tags": ["ocean", "adventure"]
+    }
+  ]
+}

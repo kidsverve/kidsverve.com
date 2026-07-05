@@ -1,0 +1,112 @@
+/* ==========================================================================
+   site.js — loads data/site.json and renders the dynamic header, nav,
+   footer, and theme colours on every page. Edit data/site.json to update
+   the menu, footer, kids, and branding everywhere at once.
+   ========================================================================== */
+
+/** Resolve a data/asset path relative to the site root regardless of page. */
+export function root(path) {
+  return path;
+}
+
+/** Fetch JSON with a friendly error. */
+export async function loadJSON(path) {
+  const res = await fetch(path, { cache: "no-cache" });
+  if (!res.ok) throw new Error(`Could not load ${path} (${res.status})`);
+  return res.json();
+}
+
+/** Escape text destined for HTML to prevent markup injection. */
+export function esc(value) {
+  return String(value ?? "").replace(/[&<>"']/g, (c) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
+  }[c]));
+}
+
+/** Apply theme colours from site.json onto CSS custom properties. */
+function applyTheme(theme = {}) {
+  const rootEl = document.documentElement;
+  const map = {
+    primary: "--primary", secondary: "--secondary", accent: "--accent",
+    purple: "--purple", ink: "--ink",
+  };
+  for (const [key, cssVar] of Object.entries(map)) {
+    if (theme[key]) rootEl.style.setProperty(cssVar, theme[key]);
+  }
+}
+
+/** Current page filename, e.g. "drawings.html" (defaults to index.html). */
+function currentPage() {
+  const file = window.location.pathname.split("/").pop();
+  return file && file.length ? file : "index.html";
+}
+
+function renderHeader(site) {
+  const header = document.getElementById("site-header");
+  if (!header) return;
+  const active = currentPage();
+  const navItems = (site.nav || []).map((item) => {
+    const isActive = item.href === active ? " is-active" : "";
+    return `<a href="${esc(item.href)}" class="${isActive.trim()}"${
+      item.href === active ? ' aria-current="page"' : ""
+    }><span class="nav__icon" aria-hidden="true">${esc(item.icon || "")}</span>${esc(item.label)}</a>`;
+  }).join("");
+
+  header.innerHTML = `
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="${esc(site.siteName)} home">
+        <span class="brand__logo" aria-hidden="true">${esc(site.logoEmoji || "🎨")}</span>
+        <span>
+          <span class="brand__name">${esc(site.siteName)}</span><br>
+          <span class="brand__tag">${esc(site.tagline || "")}</span>
+        </span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav class="nav" id="primary-nav" aria-label="Primary">${navItems}</nav>
+    </div>`;
+
+  const toggle = header.querySelector(".nav-toggle");
+  const nav = header.querySelector(".nav");
+  toggle?.addEventListener("click", () => {
+    const open = nav.classList.toggle("is-open");
+    toggle.setAttribute("aria-expanded", String(open));
+  });
+}
+
+function renderFooter(site) {
+  const footer = document.getElementById("site-footer");
+  if (!footer) return;
+  const f = site.footer || {};
+  const columns = (f.columns || []).map((col) => `
+    <div class="footer__col">
+      <h4>${esc(col.title)}</h4>
+      <ul>${(col.links || []).map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join("")}</ul>
+    </div>`).join("");
+  const social = (f.social || []).map((s) =>
+    `<a href="${esc(s.href)}" aria-label="${esc(s.label)}" title="${esc(s.label)}"><span aria-hidden="true">${esc(s.icon)}</span></a>`
+  ).join("");
+  const copyright = esc((f.copyright || "").replace("{{year}}", String(new Date().getFullYear())));
+
+  footer.innerHTML = `
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__about">
+          <h3>${esc(site.logoEmoji || "🎨")} ${esc(site.siteName)}</h3>
+          <p>${esc(f.about || "")}</p>
+          <div class="footer__social">${social}</div>
+        </div>
+        ${columns}
+      </div>
+      <div class="footer__bottom">${copyright}</div>
+    </div>`;
+}
+
+/** Load site config, render chrome, and return the config for pages to reuse. */
+export async function initSite() {
+  const site = await loadJSON("data/site.json");
+  document.title = document.title || site.siteName;
+  applyTheme(site.theme);
+  renderHeader(site);
+  renderFooter(site);
+  return site;
+}
