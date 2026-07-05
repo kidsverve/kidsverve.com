@@ -3,7 +3,7 @@
    "Latest creations" preview pulled from all collections.
    ========================================================================== */
 
-import { initSite, loadJSON, esc } from "./site.js";
+import { initSite, loadJSON, esc } from "./site.js?v=6";
 
 const COLLECTIONS = [
   { file: "data/drawings.json", href: "drawings.html", emoji: "✏️", label: "Drawings" },

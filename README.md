@@ -79,13 +79,13 @@ python -m http.server 8000
 # then open http://localhost:8000
 ```
 
-## Deploy to GitHub Pages
+<!-- ## Deploy to GitHub Pages
 
 1. Push these files to the `kidsverve/kidsverve.com` repository (default branch).
 2. In the repo, go to **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**, select your default
    branch, and the `/ (root)` folder. Save.
 4. Under **Custom domain**, confirm `kidsverve.com` (the `CNAME` file sets this).
-5. Point your domain's DNS to GitHub Pages, then enable **Enforce HTTPS**.
+5. Point your domain's DNS to GitHub Pages, then enable **Enforce HTTPS**. -->
 
-Your site goes live at `https://kidsverve.com`.
+Your site goes live at `https://www.kidsverve.com`.

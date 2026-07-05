@@ -62,23 +62,9 @@ img { max-width: 100%; display: block; }
 }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; }
 .brand__logo {
-  width: 46px; height: 46px; display: grid; place-items: center;
-  font-size: 24px; border-radius: 14px;
-  background:
-    radial-gradient(circle 2px at 24% 20%, rgba(255, 255, 255, 0.85) 96%, transparent 100%),
-    radial-gradient(circle 1.5px at 80% 78%, rgba(255, 255, 255, 0.7) 96%, transparent 100%),
-    linear-gradient(135deg, var(--primary), var(--purple));
-  box-shadow: var(--shadow), inset 0 2px 6px rgba(255, 255, 255, 0.25);
-  transform: rotate(-6deg); position: relative; overflow: hidden;
+  width: 51px; height: 51px; display: grid; place-items: center; position: relative;
 }
-.brand__logo::after {
-  content: ""; position: absolute; top: -40%; left: -30%; width: 80%; height: 80%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.22), transparent 70%);
-}
-.brand__star {
-  position: relative; z-index: 1; width: 30px; height: 30px;
-  transform: rotate(6deg); filter: drop-shadow(0 1px 2px rgba(43, 45, 66, 0.3));
-}
+.brand__logo-img { width: 51px; height: 51px; object-fit: contain; display: block; }
 .brand__name { font-size: 1.5rem; font-weight: 700; margin: 0; }
 .brand__tag { font-size: .72rem; color: var(--muted); font-weight: 700; letter-spacing: .3px; }
 
@@ -207,6 +193,30 @@ img { max-width: 100%; display: block; }
   position: absolute; top: 14px; right: 14px; z-index: 2; border: 0; cursor: pointer;
   width: 44px; height: 44px; border-radius: 50%; background: var(--ink); color: #fff; font-size: 22px;
 }
+.lightbox__toolbar {
+  position: absolute; top: 14px; right: 14px; z-index: 4; display: flex; gap: 8px;
+}
+.lightbox__tool {
+  border: 0; cursor: pointer; width: 44px; height: 44px; border-radius: 50%;
+  background: var(--ink); color: #fff; font-size: 20px; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+  transition: transform .15s ease, background .15s ease;
+}
+.lightbox__tool:hover { transform: scale(1.08); }
+.lightbox__tool.is-playing { background: var(--brand, #ff5d8f); }
+.lightbox__tool.lightbox__close { position: static; top: auto; right: auto; }
+.lightbox__tool[hidden] { display: none; }
+.lightbox__nav {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 4; border: 0; cursor: pointer;
+  width: 52px; height: 52px; border-radius: 50%; background: rgba(43, 45, 66, .55); color: #fff;
+  font-size: 34px; line-height: 1; display: flex; align-items: center; justify-content: center;
+  transition: background .15s ease, transform .15s ease;
+}
+.lightbox__nav:hover { background: var(--ink); }
+.lightbox__nav--prev { left: 14px; }
+.lightbox__nav--next { right: 14px; }
+.lightbox__nav[hidden] { display: none; }
+.lightbox__counter { font-weight: 700; color: var(--muted); margin-left: 6px; }
 .lightbox__media { width: 100%; background: linear-gradient(135deg, #f3f0ff, #e7fbfb); }
 .lightbox__media img { width: 100%; max-height: 60vh; object-fit: contain; }
 .lightbox__embed { position: relative; width: 100%; aspect-ratio: 16/11; }
@@ -215,12 +225,24 @@ img { max-width: 100%; display: block; }
 .lightbox__body h3 { margin: 0 0 8px; font-size: 1.6rem; }
 .lightbox__links { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 16px; }
 
+/* Fullscreen image view */
+.lightbox:fullscreen { padding: 0; background: #000; }
+.lightbox:fullscreen .lightbox__panel {
+  max-width: none; width: 100vw; height: 100vh; max-height: none; border-radius: 0; background: #000;
+}
+.lightbox:fullscreen .lightbox__media {
+  height: 100vh; display: flex; align-items: center; justify-content: center; background: #000;
+}
+.lightbox:fullscreen .lightbox__media img { width: auto; max-width: 100vw; max-height: 100vh; }
+.lightbox:fullscreen .lightbox__body { display: none; }
+
 /* ---------- Footer ---------- */
 .site-footer { margin-top: 50px; background: var(--ink); color: #fff; padding: 48px 0 24px; }
 .site-footer a { color: rgba(255,255,255,.85); text-decoration: none; }
 .site-footer a:hover { color: var(--accent); }
 .footer__grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 30px; }
-.footer__about h3 { margin: 0 0 10px; }
+.footer__about h3 { margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
+.footer__logo { width: 30px; height: 30px; object-fit: contain; flex: 0 0 auto; }
 .footer__about p { color: rgba(255,255,255,.7); max-width: 40ch; }
 .footer__col h4 { margin: 0 0 12px; font-family: var(--font-head); }
 .footer__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }

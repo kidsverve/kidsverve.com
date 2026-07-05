@@ -40,9 +40,9 @@
       }
     ],
     "social": [
-      { "label": "YouTube", "icon": "▶️", "href": "#" },
-      { "label": "Instagram", "icon": "📸", "href": "#" },
-      { "label": "Email", "icon": "✉️", "href": "mailto:hello@kidsverve.com" }
+      { "label": "YouTube", "icon": "▶️", "brand": "youtube", "href": "https://www.youtube.com/@LittleStarASN" },
+      { "label": "Instagram", "icon": "📸", "brand": "instagram", "title": "Coming Soon!", "href": "#" },
+      { "label": "Email", "icon": "✉️", "brand": "email", "href": "mailto:info@kidsverve.com" }
     ],
     "visitorCounter": { "namespace": "kidsverve.com", "key": "site-visits" },
     "copyright": "© {{year}} KidsVerve · Made with ❤️ by kids"
