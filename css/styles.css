@@ -155,7 +155,7 @@ img { max-width: 100%; display: block; }
 .chip .dot { width: 10px; height: 10px; border-radius: 50%; background: currentColor; opacity: .8; }
 
 /* ---------- Gallery grid ---------- */
-.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 24px; }
+.gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 300px)); gap: 24px; justify-content: center; }
 .card {
   background: var(--card); border-radius: var(--radius); overflow: hidden;
   box-shadow: var(--shadow); cursor: pointer; border: 3px solid transparent;
