@@ -4,30 +4,48 @@
   "items": [
     {
       "id": "p1",
-      "title": "Rainbow Garden",
+      "title": "A Star",
       "kid": "aadhav",
-      "date": "2026-06-02",
-      "image": "assets/paintings/rainbow-garden.jpg",
-      "description": "A bright watercolour garden bursting with flowers of every colour.",
-      "tags": ["watercolour", "nature"]
+      "date": "2024-06-01",
+      "image": "assets/paintings/aadhav_painting_a_star.jpg",
+      "description": "Alphabet letter A* at any direction.",
+      "tags": ["canvas", "alphabet"]
     },
     {
       "id": "p2",
       "title": "Starry Night Sky",
-      "kid": "guest",
-      "date": "2026-05-20",
-      "image": "assets/paintings/starry-night.jpg",
-      "description": "Swirling blues and yellows inspired by a night full of stars.",
-      "tags": ["acrylic", "sky"]
+      "kid": "aadhav",
+      "date": "2025-01-01",
+      "image": "assets/paintings/aadhav_painting_night_forest.jpg",
+      "description": "A serene night forest scene with a starry sky.",
+      "tags": ["forest", "sky"]
     },
     {
       "id": "p3",
-      "title": "Happy Elephant",
+      "title": "Pichachu",
       "kid": "aadhav",
-      "date": "2026-04-10",
-      "image": "assets/paintings/happy-elephant.jpg",
-      "description": "A cheerful blue elephant splashing water with its trunk.",
-      "tags": ["animals"]
+      "date": "2025-06-01",
+      "image": "assets/paintings/aadhav_painting_pikachu_pokemon.jpg",
+      "description": "A playful depiction of Pikachu from Pokémon.",
+      "tags": ["pokemon", "character"]
+    },
+    {
+      "id": "p4",
+      "title": "Sunset Over the Hills",
+      "kid": "aadhav",
+      "date": "2024-06-01",
+      "image": "assets/paintings/aadhav_painting_evening_sunset.jpg",
+      "description": "A beautiful sunset over rolling hills.",
+      "tags": ["sunset", "hills"]
+    },
+    {
+      "id": "p5",
+      "title": "Sunrise",
+      "kid": "aadhav",
+      "date": "2024-06-01",
+      "image": "assets/paintings/aadhav_painting_morning_sunrise.jpg",
+      "description": "A beautiful sunrise over the hills.",
+      "tags": ["sunrise", "hills"]
     }
   ]
 }

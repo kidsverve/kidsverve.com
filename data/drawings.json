@@ -4,21 +4,21 @@
   "items": [
     {
       "id": "d1",
-      "title": "Sunset Over the Hills",
+      "title": "Dragon Dance",
       "kid": "aadhav",
       "date": "2026-05-12",
-      "image": "assets/drawings/sunset-hills.jpg",
-      "description": "A calm evening scene with rolling hills and a big orange sun sinking behind them.",
-      "tags": ["nature", "landscape"]
+      "image": "assets/drawings/aadhav_drawing_dragon_dance.jpg",
+      "description": "A dynamic scene of dragons dancing in the sky.",
+      "tags": ["dragons", "fantasy"]
     },
     {
       "id": "d2",
-      "title": "Robo-Buddy",
+      "title": "Tiger Face",
       "kid": "aadhav",
       "date": "2026-04-28",
-      "image": "assets/drawings/robo-buddy.jpg",
-      "description": "A friendly robot with antenna ears and a heart-shaped screen.",
-      "tags": ["robots", "characters"]
+      "image": "assets/drawings/aadhav_drawing_tiger_face.jpg",
+      "description": "A detailed pencil sketch of a tiger's face.",
+      "tags": ["tiger", "wildlife"]
     },
     {
       "id": "d3",
