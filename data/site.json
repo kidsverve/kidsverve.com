@@ -44,6 +44,7 @@
       { "label": "Instagram", "icon": "📸", "href": "#" },
       { "label": "Email", "icon": "✉️", "href": "mailto:hello@kidsverve.com" }
     ],
+    "visitorCounter": { "namespace": "kidsverve.com", "key": "site-visits" },
     "copyright": "© {{year}} KidsVerve · Made with ❤️ by kids"
   }
 }

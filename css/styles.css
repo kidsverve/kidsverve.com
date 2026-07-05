@@ -225,12 +225,25 @@ img { max-width: 100%; display: block; }
 .footer__col h4 { margin: 0 0 12px; font-family: var(--font-head); }
 .footer__col ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
 .footer__social { display: flex; gap: 10px; margin-top: 16px; }
+.footer__social-icons { display: flex; gap: 10px; }
 .footer__social a {
   width: 44px; height: 44px; border-radius: 14px; display: grid; place-items: center;
   background: rgba(255,255,255,.1); font-size: 20px; transition: background .18s ease;
 }
 .footer__social a:hover { background: rgba(255,255,255,.2); }
 .footer__bottom { margin-top: 34px; padding-top: 18px; border-top: 1px solid rgba(255,255,255,.14); text-align: center; color: rgba(255,255,255,.7); font-size: .9rem; }
+.footer__col { position: relative; }
+.footer__visits {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
+  padding: 8px 14px; border-radius: 16px;
+  background: linear-gradient(135deg, rgba(255,255,255,.14), rgba(255,255,255,.06));
+  border: 1px solid rgba(255,255,255,.18);
+  box-shadow: 0 6px 16px rgba(0,0,0,.18), inset 0 1px 0 rgba(255,255,255,.12);
+  font-weight: 800; font-size: .82rem; color: rgba(255,255,255,.9); white-space: nowrap;
+}
+.footer__visits-icon { font-size: 1.05rem; line-height: 1; }
+.footer__visits-num strong { color: var(--accent); font-size: 1rem; }
+.footer__visits-label { color: rgba(255,255,255,.7); font-weight: 700; }
 
 /* ---------- Responsive ---------- */
 @media (max-width: 860px) {

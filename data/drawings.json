@@ -4,6 +4,51 @@
   "items": [
     {
       "id": "d1",
+      "title": "Black Panther",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_black_panther.jpg",
+      "description": "A sketch of the Marvel superhero Black Panther.",
+      "tags": ["marvel", "superhero"]
+    },
+    {
+      "id": "d2",
+      "title": "Charcoal Dog",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_char_dog.jpg",
+      "description": "A charcoal-style sketch of a friendly dog.",
+      "tags": ["animal", "dog"]
+    },
+    {
+      "id": "d3",
+      "title": "Crow",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_crow.jpg",
+      "description": "A pencil drawing of a perched crow.",
+      "tags": ["bird", "wildlife"]
+    },
+    {
+      "id": "d4",
+      "title": "Deadpool",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_deadpool.jpg",
+      "description": "A sketch of the Marvel anti-hero Deadpool.",
+      "tags": ["marvel", "superhero"]
+    },
+    {
+      "id": "d5",
+      "title": "Dialga",
+      "kid": "aadhav",
+      "date": "",
+      "image": "assets/drawings/aadhav_drawing_dialga.jpg",
+      "description": "The legendary Pokémon Dialga, master of time.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d6",
       "title": "Dragon Dance",
       "kid": "aadhav",
       "date": "2026-05-12",
@@ -12,7 +57,214 @@
       "tags": ["dragons", "fantasy"]
     },
     {
-      "id": "d2",
+      "id": "d7",
+      "title": "Ghost Rider",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_ghost_rider.jpg",
+      "description": "A fiery sketch of the Marvel character Ghost Rider.",
+      "tags": ["marvel", "superhero"]
+    },
+    {
+      "id": "d8",
+      "title": "Gojo Satoru",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_gojo.jpg",
+      "description": "Gojo Satoru from the anime Jujutsu Kaisen.",
+      "tags": ["anime", "jujutsu-kaisen"]
+    },
+    {
+      "id": "d9",
+      "title": "Inisko",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_inisko.jpg",
+      "description": "A character sketch of Inisko.",
+      "tags": ["anime", "character"]
+    },
+    {
+      "id": "d10",
+      "title": "Isagi Yoichi",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_isagi.jpg",
+      "description": "Isagi Yoichi, the striker from the anime Blue Lock.",
+      "tags": ["anime", "blue-lock"]
+    },
+    {
+      "id": "d11",
+      "title": "Itachi Uchiha",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_itachi_uhuicha.jpg",
+      "description": "Itachi Uchiha from the anime Naruto.",
+      "tags": ["anime", "naruto"]
+    },
+    {
+      "id": "d12",
+      "title": "Michael Kaiser",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_kaiser.jpg",
+      "description": "Michael Kaiser from the anime Blue Lock.",
+      "tags": ["anime", "blue-lock"]
+    },
+    {
+      "id": "d13",
+      "title": "Kenyu",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_kenyu.jpg",
+      "description": "A character sketch of Kenyu.",
+      "tags": ["anime", "character"]
+    },
+    {
+      "id": "d14",
+      "title": "Kyogre",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_kyogre.jpg",
+      "description": "The legendary Pokémon Kyogre of the seas.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d15",
+      "title": "Light Fury",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_light_fury.jpg",
+      "description": "The Light Fury dragon from How to Train Your Dragon.",
+      "tags": ["dragons", "httyd"]
+    },
+    {
+      "id": "d16",
+      "title": "Makomo",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_makoma.jpg",
+      "description": "Makomo from the anime Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
+    },
+    {
+      "id": "d17",
+      "title": "Mew",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_mew.jpg",
+      "description": "The mythical Pokémon Mew.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d18",
+      "title": "Michael Kaiser Portrait",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_micheal_kiser.jpg",
+      "description": "A portrait sketch of Michael Kaiser from Blue Lock.",
+      "tags": ["anime", "blue-lock"]
+    },
+    {
+      "id": "d19",
+      "title": "Moltres",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_moltres.jpg",
+      "description": "The legendary fire bird Pokémon Moltres.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d20",
+      "title": "Mr. Gojo",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_mr_gojo.jpg",
+      "description": "Another take on Gojo from Jujutsu Kaisen.",
+      "tags": ["anime", "jujutsu-kaisen"]
+    },
+    {
+      "id": "d21",
+      "title": "Mr. K",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_mr_k.jpg",
+      "description": "A character portrait titled Mr. K.",
+      "tags": ["portrait", "character"]
+    },
+    {
+      "id": "d22",
+      "title": "Mr. R",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_mr_r.jpg",
+      "description": "A character portrait titled Mr. R.",
+      "tags": ["portrait", "character"]
+    },
+    {
+      "id": "d23",
+      "title": "Ms. K",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_ms_k.jpg",
+      "description": "A character portrait titled Ms. K.",
+      "tags": ["portrait", "character"]
+    },
+    {
+      "id": "d24",
+      "title": "Muzan",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_muzon.jpg",
+      "description": "Muzan Kibutsuji from the anime Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
+    },
+    {
+      "id": "d25",
+      "title": "Naruto Uzumaki",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_naruto.jpg",
+      "description": "Naruto Uzumaki from the anime Naruto.",
+      "tags": ["anime", "naruto"]
+    },
+    {
+      "id": "d26",
+      "title": "Obanai Iguro",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_obanai.jpg",
+      "description": "Obanai Iguro, the Serpent Hashira from Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
+    },
+    {
+      "id": "d27",
+      "title": "Palkia",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_palkia.jpg",
+      "description": "The legendary Pokémon Palkia, master of space.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d28",
+      "title": "Rayquaza",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_rayquaza.jpg",
+      "description": "The legendary sky dragon Pokémon Rayquaza.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d29",
+      "title": "Sasuke Uchiha",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_sasuke.jpg",
+      "description": "Sasuke Uchiha from the anime Naruto.",
+      "tags": ["anime", "naruto"]
+    },
+    {
+      "id": "d30",
       "title": "Tiger Face",
       "kid": "aadhav",
       "date": "2026-04-28",
@@ -21,13 +273,58 @@
       "tags": ["tiger", "wildlife"]
     },
     {
-      "id": "d3",
-      "title": "Ocean Explorer",
-      "kid": "guest",
-      "date": "2026-03-15",
-      "image": "assets/drawings/ocean-explorer.jpg",
-      "description": "A submarine diving deep to meet colourful fish and a curious octopus.",
-      "tags": ["ocean", "adventure"]
+      "id": "d31",
+      "title": "Turtle Up and Down",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_turtle_updown.jpg",
+      "description": "A playful drawing of a turtle from two angles.",
+      "tags": ["animal", "turtle"]
+    },
+    {
+      "id": "d32",
+      "title": "Ventno",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_ventno.jpg",
+      "description": "A character sketch of Ventno.",
+      "tags": ["character"]
+    },
+    {
+      "id": "d33",
+      "title": "Xerneas",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_xerneas.jpg",
+      "description": "The legendary Pokémon Xerneas.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d34",
+      "title": "Yveltal",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_yveltal.jpg",
+      "description": "The legendary Pokémon Yveltal.",
+      "tags": ["pokemon", "legendary"]
+    },
+    {
+      "id": "d35",
+      "title": "Zardos",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_zardos.jpg",
+      "description": "A character sketch of Zardos.",
+      "tags": ["character"]
+    },
+    {
+      "id": "d36",
+      "title": "Zenitsu Agatsuma",
+      "kid": "aadhav",
+      "date": "2025-06-01",
+      "image": "assets/drawings/aadhav_drawing_zentisu.jpg",
+      "description": "Zenitsu Agatsuma from the anime Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
     }
   ]
 }

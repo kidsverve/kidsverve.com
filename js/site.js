@@ -77,10 +77,18 @@ function renderFooter(site) {
   const footer = document.getElementById("site-footer");
   if (!footer) return;
   const f = site.footer || {};
-  const columns = (f.columns || []).map((col) => `
+  const visitsBadge = `
+    <span class="footer__visits" id="visit-count" hidden>
+      <span class="footer__visits-icon" aria-hidden="true">👀</span>
+      <span class="footer__visits-num"><strong>…</strong></span>
+      <span class="footer__visits-label">visits</span>
+    </span>`;
+  const colList = f.columns || [];
+  const columns = colList.map((col, i) => `
     <div class="footer__col">
       <h4>${esc(col.title)}</h4>
       <ul>${(col.links || []).map((l) => `<li><a href="${esc(l.href)}">${esc(l.label)}</a></li>`).join("")}</ul>
+      ${i === colList.length - 1 ? visitsBadge : ""}
     </div>`).join("");
   const social = (f.social || []).map((s) =>
     `<a href="${esc(s.href)}" aria-label="${esc(s.label)}" title="${esc(s.label)}"><span aria-hidden="true">${esc(s.icon)}</span></a>`
@@ -93,12 +101,38 @@ function renderFooter(site) {
         <div class="footer__about">
           <h3>${esc(site.logoEmoji || "🎨")} ${esc(site.siteName)}</h3>
           <p>${esc(f.about || "")}</p>
-          <div class="footer__social">${social}</div>
+          <div class="footer__social">
+            <div class="footer__social-icons">${social}</div>
+          </div>
         </div>
         ${columns}
       </div>
       <div class="footer__bottom">${copyright}</div>
     </div>`;
+}
+
+/**
+ * Show a global visit count in the footer. GitHub Pages is static, so the count
+ * is persisted by a free external hit-counter (Abacus). It increments once per
+ * browser session and reads on later page loads. Fails silently if offline.
+ */
+async function loadVisitCount(counter) {
+  const el = document.getElementById("visit-count");
+  if (!el || !counter || !counter.namespace || !counter.key) return;
+  const base = "https://abacus.jasoncameron.dev";
+  const counted = sessionStorage.getItem("kv_visit_counted");
+  const action = counted ? "get" : "hit";
+  try {
+    const res = await fetch(`${base}/${action}/${encodeURIComponent(counter.namespace)}/${encodeURIComponent(counter.key)}`);
+    if (!res.ok) throw new Error(String(res.status));
+    const data = await res.json();
+    if (!counted) sessionStorage.setItem("kv_visit_counted", "1");
+    const value = Number(data.value ?? 0).toLocaleString();
+    el.querySelector("strong").textContent = value;
+    el.hidden = false;
+  } catch {
+    // Leave the counter hidden if the service is unreachable.
+  }
 }
 
 /** Load site config, render chrome, and return the config for pages to reuse. */
@@ -108,5 +142,6 @@ export async function initSite() {
   applyTheme(site.theme);
   renderHeader(site);
   renderFooter(site);
+  loadVisitCount(site.footer && site.footer.visitorCounter);
   return site;
 }
