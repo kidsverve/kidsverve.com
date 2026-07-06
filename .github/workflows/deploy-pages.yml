@@ -50,5 +50,5 @@ jobs:
       - name: Fail if both deployment attempts failed
         if: steps.deploy_attempt_1.outcome == 'failure' && steps.deploy_attempt_2.outcome == 'failure'
         run: |
-          echo "Both deployment attempts failed."
+          echo "Both deployment attempts failed. Check GitHub Pages service status and repository Pages permissions/settings."
           exit 1
