@@ -31,12 +31,12 @@
     },
     {
       "id": "p4",
-      "title": "Fire Dragon",
+      "title": "Mega Charizard",
       "kid": "aadhav",
       "date": "2025-03-19",
-      "image": "assets/paintings/aadhav_painting_fire_dragon.jpg",
-      "description": "A fierce fire-breathing dragon in bold colours.",
-      "tags": ["dragons", "fantasy"]
+      "image": "assets/paintings/aadhav_painting_mega_charizard.jpg",
+      "description": "A painting of the fire-type Pokémon Mega Charizard.",
+      "tags": ["pokemon", "mega-charizard"]
     },
     {
       "id": "p5",
@@ -45,7 +45,7 @@
       "date": "2026-02-06",
       "image": "assets/paintings/aadhav_painting_flareon_pokemon.jpg",
       "description": "A painting of the fire-type Pokémon Flareon.",
-      "tags": ["pokemon", "character"]
+      "tags": ["pokemon", "flareon"]
     },
     {
       "id": "p6",
@@ -54,7 +54,7 @@
       "date": "2024-10-27",
       "image": "assets/paintings/aadhav_painting_lucario_pokemon.jpg",
       "description": "A painting of the fighting-type Pokémon Lucario.",
-      "tags": ["pokemon", "character"]
+      "tags": ["pokemon", "lucario"]
     },
     {
       "id": "p7",
@@ -81,7 +81,7 @@
       "date": "2024-12-08",
       "image": "assets/paintings/aadhav_painting_pikachu_pokemon.jpg",
       "description": "A playful depiction of Pikachu from Pokémon.",
-      "tags": ["pokemon", "character"]
+      "tags": ["pokemon", "pikachu"]
     }
   ]
 }

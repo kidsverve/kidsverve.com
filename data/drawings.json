@@ -25,7 +25,7 @@
       "title": "Crow the Brawler",
       "kid": "aadhav",
       "date": "2025-02-11",
-      "image": "assets/drawings/aadhav_drawing_crow.jpg",
+      "image": "assets/drawings/aadhav_drawing_crow_brawler.jpg",
       "description": "Crow the Brawler from Brawl Stars.",
       "tags": ["legendary", "brawler"]
     },
@@ -70,7 +70,7 @@
       "title": "Gojo Satoru",
       "kid": "aadhav",
       "date": "2024-07-15",
-      "image": "assets/drawings/aadhav_drawing_gojo.jpg",
+      "image": "assets/drawings/aadhav_drawing_gojo_satoru.jpg",
       "description": "Gojo Satoru from the anime Jujutsu Kaisen.",
       "tags": ["anime", "jujutsu-kaisen"]
     },
@@ -94,12 +94,12 @@
     },
     {
       "id": "d11",
-      "title": "Itachi Uchiha",
+      "title": "Itachi Uhuicha",
       "kid": "aadhav",
       "date": "2024-02-18",
-      "image": "assets/drawings/aadhav_drawing_itachi_uchiha.jpg",
-      "description": "Itachi Uchiha from the anime Naruto.",
-      "tags": ["anime", "naruto"]
+      "image": "assets/drawings/aadhav_drawing_itachi_uhuicha.jpg",
+      "description": "Itachi Uhuicha from the anime Naruto.",
+      "tags": ["anime", "uhuicha"]
     },
     {
       "id": "d12",
@@ -112,12 +112,12 @@
     },
     {
       "id": "d13",
-      "title": "Kenyu Yukimiya",
+      "title": "Kenyu",
       "kid": "aadhav",
       "date": "2024-12-12",
-      "image": "assets/drawings/aadhav_drawing_kenyu_yukimiya.jpg",
-      "description": "A character sketch of Kenyu Yukimiya.",
-      "tags": ["anime", "blue-lock"]
+      "image": "assets/drawings/aadhav_drawing_kenyu.jpg",
+      "description": "A character sketch of Kenyu.",
+      "tags": ["anime", "kenyu"]
     },
     {
       "id": "d14",
@@ -187,7 +187,7 @@
       "title": "Tanjiro Kamado",
       "kid": "aadhav",
       "date": "2024-10-19",
-      "image": "assets/drawings/aadhav_drawing_tanjiro_kamado.jpg",
+      "image": "assets/drawings/aadhav_drawing_Tanjiro_kamado.jpg",
       "description": "A character portrait of Tanjiro Kamado from Demon Slayer.",
       "tags": ["anime", "demon-slayer"]
     },
@@ -211,30 +211,30 @@
     },
     {
       "id": "d24",
-      "title": "Muzan Kibutsuji",
+      "title": "Muzan",
       "kid": "aadhav",
       "date": "2024-06-11",
-      "image": "assets/drawings/aadhav_drawing_muzan_kibutsuji.jpg",
-      "description": "Muzan Kibutsuji from the anime Demon Slayer.",
-      "tags": ["anime", "demon-slayer"]
+      "image": "assets/drawings/aadhav_drawing_muzan.jpg",
+      "description": "Muzan from the anime Demon Slayer.",
+      "tags": ["anime", "muzan"]
     },
     {
       "id": "d25",
-      "title": "Naruto Uzumaki",
+      "title": "Naruto",
       "kid": "aadhav",
       "date": "2025-09-08",
-      "image": "assets/drawings/aadhav_drawing_naruto_uzumaki.jpg",
-      "description": "Naruto Uzumaki from the anime Naruto.",
+      "image": "assets/drawings/aadhav_drawing_naruto.jpg",
+      "description": "Naruto from the anime Naruto.",
       "tags": ["anime", "naruto"]
     },
     {
       "id": "d26",
-      "title": "Obanai Iguro",
+      "title": "Obanai",
       "kid": "aadhav",
       "date": "2024-01-23",
-      "image": "assets/drawings/aadhav_drawing_obanai_iguro.jpg",
-      "description": "Obanai Iguro, the Serpent Hashira from Demon Slayer.",
-      "tags": ["anime", "demon-slayer"]
+      "image": "assets/drawings/aadhav_drawing_obanai.jpg",
+      "description": "Obanai, the Serpent Hashira from Demon Slayer.",
+      "tags": ["anime", "obanai"]
     },
     {
       "id": "d27",
@@ -256,12 +256,12 @@
     },
     {
       "id": "d29",
-      "title": "Sasuke Uchiha",
+      "title": "Sasuke",
       "kid": "aadhav",
       "date": "2024-07-29",
-      "image": "assets/drawings/aadhav_drawing_sasuke_uchiha.jpg",
-      "description": "Sasuke Uchiha from the anime Naruto.",
-      "tags": ["anime", "naruto"]
+      "image": "assets/drawings/aadhav_drawing_sasuke.jpg",
+      "description": "Sasuke from the anime Naruto.",
+      "tags": ["anime", "sasuke"]
     },
     {
       "id": "d30",
@@ -322,9 +322,9 @@
       "title": "Zenitsu Agatsuma",
       "kid": "aadhav",
       "date": "2025-02-27",
-      "image": "assets/drawings/aadhav_drawing_zenitsu_agatsuma.jpg",
-      "description": "Zenitsu Agatsuma from the anime Demon Slayer.",
-      "tags": ["anime", "demon-slayer"]
+      "image": "assets/drawings/aadhav_drawing_zenitsu.jpg",
+      "description": "Zenitsu from the anime Demon Slayer.",
+      "tags": ["anime", "zenitsu"]
     },
     {
       "id": "d37",
@@ -341,7 +341,7 @@
       "title": "Mecha Mortis the brawler",
       "kid": "aadhav",
       "date": "2025-10-12",
-      "image": "assets/drawings/aadhav_drawing_mecha_mortis_the_brawler.jpg",
+      "image": "assets/drawings/aadhav_drawing_mecha_mortis_brawler.jpg",
       "description": "Mecha Mortis the brawler from Brawl Stars.",
       "tags": ["game", "brawler"]
 
@@ -351,7 +351,7 @@
       "title": "Leon the brawler",
       "kid": "aadhav",
       "date": "2026-03-28",
-      "image": "assets/drawings/aadhav_drawing_leon_the_brawler.jpg",
+      "image": "assets/drawings/aadhav_drawing_leon_brawler.jpg",
       "description": "Leon the brawler from Brawl Stars.",
       "tags": ["game", "brawler"]
 
@@ -361,7 +361,7 @@
       "title": "Mr.P the brawler",
       "kid": "aadhav",
       "date": "2024-05-21",
-      "image": "assets/drawings/aadhav_drawing_mr_p_the_brawler.jpg",
+      "image": "assets/drawings/aadhav_drawing_mr_p_brawler.jpg",
       "description": "Mr.P the brawler from Brawl Stars.",
       "tags": ["game", "brawler"]
 

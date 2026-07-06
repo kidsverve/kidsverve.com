@@ -8,7 +8,7 @@
       "kid": "aadhav",
       "date": "2025-09-15",
       "type": "embed",
-      "image": "assets/codings/minecraft.jpg",
+      "image": "assets/codings/aadhav_coding_minecraft.jpg",
       "description": "Explore and build in the world of Minecraft!",
       "embedUrl": "https://scratch.mit.edu/projects/10128407/embed",
       "links": [
@@ -21,7 +21,7 @@
       "kid": "aadhav",
       "date": "2024-06-27",
       "type": "card",
-      "image": "assets/codings/maze-runner.jpg",
+      "image": "assets/codings/aadhav_coding_maze_runner.jpg",
       "description": "Guide the glowing dot from start to finish through a tricky maze.",
       "links": [
         { "label": "Play Game", "href": "#" },
@@ -34,7 +34,7 @@
       "kid": "guest",
       "date": "2026-01-20",
       "type": "embed",
-      "image": "assets/codings/dancing-cat.jpg",
+      "image": "assets/codings/aadhav_coding_dancing_cat.jpg",
       "description": "A funny cat that dances to the beat. Click the green flag to start the show!",
       "embedUrl": "https://scratch.mit.edu/projects/10128515/embed",
       "links": [
