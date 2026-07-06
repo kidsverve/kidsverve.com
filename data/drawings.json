@@ -132,7 +132,7 @@
       "id": "d15",
       "title": "Light Fury",
       "kid": "aadhav",
-      "date": "2025-01-28",
+      "date": "2026-06-05",
       "image": "assets/drawings/aadhav_drawing_light_fury.jpg",
       "description": "The Light Fury dragon from How to Train Your Dragon.",
       "tags": ["dragons", "httyd"]
@@ -319,18 +319,18 @@
     },
     {
       "id": "d36",
-      "title": "Zenitsu Agatsuma",
+      "title": "Zentisu Agatsuma",
       "kid": "aadhav",
       "date": "2025-02-27",
-      "image": "assets/drawings/aadhav_drawing_zenitsu.jpg",
-      "description": "Zenitsu from the anime Demon Slayer.",
-      "tags": ["anime", "zenitsu"]
+      "image": "assets/drawings/aadhav_drawing_zentisu.jpg",
+      "description": "Zentisu from the anime Demon Slayer.",
+      "tags": ["anime", "zentisu"]
     },
     {
       "id": "d37",
       "title": "Toothless",
       "kid": "aadhav",
-      "date": "2024-09-03",
+      "date": "2026-04-03",
       "image": "assets/drawings/aadhav_drawing_toothless.jpg",
       "description": "A character sketch of Toothless from How to Train Your Dragon.",
       "tags": ["movie", "dragon"]
@@ -365,6 +365,15 @@
       "description": "Mr.P the brawler from Brawl Stars.",
       "tags": ["game", "brawler"]
 
+    },
+    {
+      "id": "d41",
+      "title": "Anime",
+      "kid": "aadhav",
+      "date": "2025-01-15",
+      "image": "assets/drawings/aadhav_drawing_anime.jpg",
+      "description": "A drawing inspired by anime.",
+      "tags": ["anime", "eyes"]
     }
   ]
 }
