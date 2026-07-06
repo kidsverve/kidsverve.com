@@ -6,34 +6,34 @@
       "id": "d1",
       "title": "Black Panther",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-03-14",
       "image": "assets/drawings/aadhav_drawing_black_panther.jpg",
       "description": "A sketch of the Marvel superhero Black Panther.",
       "tags": ["marvel", "superhero"]
     },
     {
       "id": "d2",
-      "title": "Charcoal Dog",
+      "title": "Sleepy Dog on Chair",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_char_dog.jpg",
-      "description": "A charcoal-style sketch of a friendly dog.",
+      "date": "2024-09-22",
+      "image": "assets/drawings/aadhav_drawing_chair_dog.jpg",
+      "description": "A friendly dog sitting on a chair.",
       "tags": ["animal", "dog"]
     },
     {
       "id": "d3",
-      "title": "Crow",
+      "title": "Crow the Brawler",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-02-11",
       "image": "assets/drawings/aadhav_drawing_crow.jpg",
-      "description": "A pencil drawing of a perched crow.",
-      "tags": ["bird", "wildlife"]
+      "description": "Crow the Brawler from Brawl Stars.",
+      "tags": ["legendary", "brawler"]
     },
     {
       "id": "d4",
       "title": "Deadpool",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-05-08",
       "image": "assets/drawings/aadhav_drawing_deadpool.jpg",
       "description": "A sketch of the Marvel anti-hero Deadpool.",
       "tags": ["marvel", "superhero"]
@@ -42,7 +42,7 @@
       "id": "d5",
       "title": "Dialga",
       "kid": "aadhav",
-      "date": "",
+      "date": "2025-08-19",
       "image": "assets/drawings/aadhav_drawing_dialga.jpg",
       "description": "The legendary Pokémon Dialga, master of time.",
       "tags": ["pokemon", "legendary"]
@@ -51,7 +51,7 @@
       "id": "d6",
       "title": "Dragon Dance",
       "kid": "aadhav",
-      "date": "2026-05-12",
+      "date": "2024-11-03",
       "image": "assets/drawings/aadhav_drawing_dragon_dance.jpg",
       "description": "A dynamic scene of dragons dancing in the sky.",
       "tags": ["dragons", "fantasy"]
@@ -60,7 +60,7 @@
       "id": "d7",
       "title": "Ghost Rider",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-04-27",
       "image": "assets/drawings/aadhav_drawing_ghost_rider.jpg",
       "description": "A fiery sketch of the Marvel character Ghost Rider.",
       "tags": ["marvel", "superhero"]
@@ -69,25 +69,25 @@
       "id": "d8",
       "title": "Gojo Satoru",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-07-15",
       "image": "assets/drawings/aadhav_drawing_gojo.jpg",
       "description": "Gojo Satoru from the anime Jujutsu Kaisen.",
       "tags": ["anime", "jujutsu-kaisen"]
     },
     {
       "id": "d9",
-      "title": "Inisko",
+      "title": "Inosuke Hashibira",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_inisko.jpg",
-      "description": "A character sketch of Inisko.",
-      "tags": ["anime", "character"]
+      "date": "2026-01-09",
+      "image": "assets/drawings/aadhav_drawing_inosuke.jpg",
+      "description": "A character sketch of Inosuke Hashibira.",
+      "tags": ["anime", "demon-slayer"]
     },
     {
       "id": "d10",
       "title": "Isagi Yoichi",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-10-30",
       "image": "assets/drawings/aadhav_drawing_isagi.jpg",
       "description": "Isagi Yoichi, the striker from the anime Blue Lock.",
       "tags": ["anime", "blue-lock"]
@@ -96,8 +96,8 @@
       "id": "d11",
       "title": "Itachi Uchiha",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_itachi_uhuicha.jpg",
+      "date": "2024-02-18",
+      "image": "assets/drawings/aadhav_drawing_itachi_uchiha.jpg",
       "description": "Itachi Uchiha from the anime Naruto.",
       "tags": ["anime", "naruto"]
     },
@@ -105,25 +105,25 @@
       "id": "d12",
       "title": "Michael Kaiser",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-06-24",
       "image": "assets/drawings/aadhav_drawing_kaiser.jpg",
       "description": "Michael Kaiser from the anime Blue Lock.",
       "tags": ["anime", "blue-lock"]
     },
     {
       "id": "d13",
-      "title": "Kenyu",
+      "title": "Kenyu Yukimiya",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_kenyu.jpg",
-      "description": "A character sketch of Kenyu.",
-      "tags": ["anime", "character"]
+      "date": "2024-12-12",
+      "image": "assets/drawings/aadhav_drawing_kenyu_yukimiya.jpg",
+      "description": "A character sketch of Kenyu Yukimiya.",
+      "tags": ["anime", "blue-lock"]
     },
     {
       "id": "d14",
       "title": "Kyogre",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2026-03-05",
       "image": "assets/drawings/aadhav_drawing_kyogre.jpg",
       "description": "The legendary Pokémon Kyogre of the seas.",
       "tags": ["pokemon", "legendary"]
@@ -132,7 +132,7 @@
       "id": "d15",
       "title": "Light Fury",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-01-28",
       "image": "assets/drawings/aadhav_drawing_light_fury.jpg",
       "description": "The Light Fury dragon from How to Train Your Dragon.",
       "tags": ["dragons", "httyd"]
@@ -141,8 +141,8 @@
       "id": "d16",
       "title": "Makomo",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_makoma.jpg",
+      "date": "2024-08-07",
+      "image": "assets/drawings/aadhav_drawing_makomo.jpg",
       "description": "Makomo from the anime Demon Slayer.",
       "tags": ["anime", "demon-slayer"]
     },
@@ -150,7 +150,7 @@
       "id": "d17",
       "title": "Mew",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-11-16",
       "image": "assets/drawings/aadhav_drawing_mew.jpg",
       "description": "The mythical Pokémon Mew.",
       "tags": ["pokemon", "legendary"]
@@ -159,7 +159,7 @@
       "id": "d18",
       "title": "Michael Kaiser Portrait",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-04-30",
       "image": "assets/drawings/aadhav_drawing_micheal_kiser.jpg",
       "description": "A portrait sketch of Michael Kaiser from Blue Lock.",
       "tags": ["anime", "blue-lock"]
@@ -168,53 +168,53 @@
       "id": "d19",
       "title": "Moltres",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2026-02-21",
       "image": "assets/drawings/aadhav_drawing_moltres.jpg",
       "description": "The legendary fire bird Pokémon Moltres.",
       "tags": ["pokemon", "legendary"]
     },
     {
       "id": "d20",
-      "title": "Mr. Gojo",
+      "title": "Satoru Gojo",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_mr_gojo.jpg",
-      "description": "Another take on Gojo from Jujutsu Kaisen.",
+      "date": "2025-05-13",
+      "image": "assets/drawings/aadhav_drawing_satoru_gojo.jpg",
+      "description": "Another take on Satoru Gojo from Jujutsu Kaisen.",
       "tags": ["anime", "jujutsu-kaisen"]
     },
     {
       "id": "d21",
-      "title": "Mr. K",
+      "title": "Tanjiro Kamado",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_mr_k.jpg",
-      "description": "A character portrait titled Mr. K.",
-      "tags": ["portrait", "character"]
+      "date": "2024-10-19",
+      "image": "assets/drawings/aadhav_drawing_tanjiro_kamado.jpg",
+      "description": "A character portrait of Tanjiro Kamado from Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
     },
     {
       "id": "d22",
-      "title": "Mr. R",
+      "title": "Sabito",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_mr_r.jpg",
-      "description": "A character portrait titled Mr. R.",
-      "tags": ["portrait", "character"]
+      "date": "2025-03-26",
+      "image": "assets/drawings/aadhav_drawing_sabito.jpg",
+      "description": "A character portrait of Sabito from Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
     },
     {
       "id": "d23",
-      "title": "Ms. K",
+      "title": "Nezuko Kamado",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_ms_k.jpg",
-      "description": "A character portrait titled Ms. K.",
-      "tags": ["portrait", "character"]
+      "date": "2026-06-02",
+      "image": "assets/drawings/aadhav_drawing_nezuko_kamado.jpg",
+      "description": "A character portrait of Nezuko Kamado from Demon Slayer.",
+      "tags": ["anime", "demon-slayer"]
     },
     {
       "id": "d24",
-      "title": "Muzan",
+      "title": "Muzan Kibutsuji",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_muzon.jpg",
+      "date": "2024-06-11",
+      "image": "assets/drawings/aadhav_drawing_muzan_kibutsuji.jpg",
       "description": "Muzan Kibutsuji from the anime Demon Slayer.",
       "tags": ["anime", "demon-slayer"]
     },
@@ -222,8 +222,8 @@
       "id": "d25",
       "title": "Naruto Uzumaki",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_naruto.jpg",
+      "date": "2025-09-08",
+      "image": "assets/drawings/aadhav_drawing_naruto_uzumaki.jpg",
       "description": "Naruto Uzumaki from the anime Naruto.",
       "tags": ["anime", "naruto"]
     },
@@ -231,8 +231,8 @@
       "id": "d26",
       "title": "Obanai Iguro",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_obanai.jpg",
+      "date": "2024-01-23",
+      "image": "assets/drawings/aadhav_drawing_obanai_iguro.jpg",
       "description": "Obanai Iguro, the Serpent Hashira from Demon Slayer.",
       "tags": ["anime", "demon-slayer"]
     },
@@ -240,7 +240,7 @@
       "id": "d27",
       "title": "Palkia",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-12-04",
       "image": "assets/drawings/aadhav_drawing_palkia.jpg",
       "description": "The legendary Pokémon Palkia, master of space.",
       "tags": ["pokemon", "legendary"]
@@ -249,7 +249,7 @@
       "id": "d28",
       "title": "Rayquaza",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2026-04-17",
       "image": "assets/drawings/aadhav_drawing_rayquaza.jpg",
       "description": "The legendary sky dragon Pokémon Rayquaza.",
       "tags": ["pokemon", "legendary"]
@@ -258,8 +258,8 @@
       "id": "d29",
       "title": "Sasuke Uchiha",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_sasuke.jpg",
+      "date": "2024-07-29",
+      "image": "assets/drawings/aadhav_drawing_sasuke_uchiha.jpg",
       "description": "Sasuke Uchiha from the anime Naruto.",
       "tags": ["anime", "naruto"]
     },
@@ -267,7 +267,7 @@
       "id": "d30",
       "title": "Tiger Face",
       "kid": "aadhav",
-      "date": "2026-04-28",
+      "date": "2025-07-20",
       "image": "assets/drawings/aadhav_drawing_tiger_face.jpg",
       "description": "A detailed pencil sketch of a tiger's face.",
       "tags": ["tiger", "wildlife"]
@@ -276,25 +276,25 @@
       "id": "d31",
       "title": "Turtle Up and Down",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2026-01-31",
       "image": "assets/drawings/aadhav_drawing_turtle_updown.jpg",
       "description": "A playful drawing of a turtle from two angles.",
       "tags": ["animal", "turtle"]
     },
     {
       "id": "d32",
-      "title": "Ventno",
+      "title": "Mewtwo",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_ventno.jpg",
-      "description": "A character sketch of Ventno.",
-      "tags": ["character"]
+      "date": "2024-03-06",
+      "image": "assets/drawings/aadhav_drawing_mewtwo.jpg",
+      "description": "A character sketch of Mewtwo.",
+      "tags": ["pokemon", "legendary"]
     },
     {
       "id": "d33",
       "title": "Xerneas",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-08-25",
       "image": "assets/drawings/aadhav_drawing_xerneas.jpg",
       "description": "The legendary Pokémon Xerneas.",
       "tags": ["pokemon", "legendary"]
@@ -303,28 +303,68 @@
       "id": "d34",
       "title": "Yveltal",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-11-14",
       "image": "assets/drawings/aadhav_drawing_yveltal.jpg",
       "description": "The legendary Pokémon Yveltal.",
       "tags": ["pokemon", "legendary"]
     },
     {
       "id": "d35",
-      "title": "Zardos",
+      "title": "Zapdos",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_zardos.jpg",
-      "description": "A character sketch of Zardos.",
-      "tags": ["character"]
+      "date": "2026-05-19",
+      "image": "assets/drawings/aadhav_drawing_zapdos.jpg",
+      "description": "A character sketch of Zapdos.",
+      "tags": ["pokemon", "legendary"]
     },
     {
       "id": "d36",
       "title": "Zenitsu Agatsuma",
       "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/drawings/aadhav_drawing_zentisu.jpg",
+      "date": "2025-02-27",
+      "image": "assets/drawings/aadhav_drawing_zenitsu_agatsuma.jpg",
       "description": "Zenitsu Agatsuma from the anime Demon Slayer.",
       "tags": ["anime", "demon-slayer"]
+    },
+    {
+      "id": "d37",
+      "title": "Toothless",
+      "kid": "aadhav",
+      "date": "2024-09-03",
+      "image": "assets/drawings/aadhav_drawing_toothless.jpg",
+      "description": "A character sketch of Toothless from How to Train Your Dragon.",
+      "tags": ["movie", "dragon"]
+
+    },
+    {
+      "id": "d38",
+      "title": "Mecha Mortis the brawler",
+      "kid": "aadhav",
+      "date": "2025-10-12",
+      "image": "assets/drawings/aadhav_drawing_mecha_mortis_the_brawler.jpg",
+      "description": "Mecha Mortis the brawler from Brawl Stars.",
+      "tags": ["game", "brawler"]
+
+    },
+    {
+      "id": "d39",
+      "title": "Leon the brawler",
+      "kid": "aadhav",
+      "date": "2026-03-28",
+      "image": "assets/drawings/aadhav_drawing_leon_the_brawler.jpg",
+      "description": "Leon the brawler from Brawl Stars.",
+      "tags": ["game", "brawler"]
+
+    },
+    {
+      "id": "d40",
+      "title": "Mr.P the brawler",
+      "kid": "aadhav",
+      "date": "2024-05-21",
+      "image": "assets/drawings/aadhav_drawing_mr_p_the_brawler.jpg",
+      "description": "Mr.P the brawler from Brawl Stars.",
+      "tags": ["game", "brawler"]
+
     }
   ]
 }

@@ -6,7 +6,7 @@
       "id": "p1",
       "title": "A Star",
       "kid": "aadhav",
-      "date": "2024-06-01",
+      "date": "2024-04-09",
       "image": "assets/paintings/aadhav_painting_a_star.jpg",
       "description": "Alphabet letter A* at any direction.",
       "tags": ["canvas", "alphabet"]
@@ -15,7 +15,7 @@
       "id": "p2",
       "title": "Drizzile",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-07-01",
       "image": "assets/paintings/aadhav_painting_driizzile_pokemon.jpg",
       "description": "A painting of the water-type Pokémon Drizzile.",
       "tags": ["pokemon", "character"]
@@ -24,7 +24,7 @@
       "id": "p3",
       "title": "Sunset Over the Hills",
       "kid": "aadhav",
-      "date": "2024-06-01",
+      "date": "2024-08-16",
       "image": "assets/paintings/aadhav_painting_evening_sunset.jpg",
       "description": "A beautiful sunset over rolling hills.",
       "tags": ["sunset", "hills"]
@@ -33,7 +33,7 @@
       "id": "p4",
       "title": "Fire Dragon",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2025-03-19",
       "image": "assets/paintings/aadhav_painting_fire_dragon.jpg",
       "description": "A fierce fire-breathing dragon in bold colours.",
       "tags": ["dragons", "fantasy"]
@@ -42,82 +42,46 @@
       "id": "p5",
       "title": "Flareon",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2026-02-06",
       "image": "assets/paintings/aadhav_painting_flareon_pokemon.jpg",
       "description": "A painting of the fire-type Pokémon Flareon.",
       "tags": ["pokemon", "character"]
     },
     {
       "id": "p6",
-      "title": "Loen",
-      "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/paintings/aadhav_painting_loen.jpg",
-      "description": "A colourful painting titled Loen.",
-      "tags": ["character"]
-    },
-    {
-      "id": "p7",
       "title": "Lucario",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-10-27",
       "image": "assets/paintings/aadhav_painting_lucario_pokemon.jpg",
       "description": "A painting of the fighting-type Pokémon Lucario.",
       "tags": ["pokemon", "character"]
     },
     {
-      "id": "p8",
-      "title": "Mecha Mortis",
-      "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/paintings/aadhav_painting_mecha_mortis.jpg",
-      "description": "A mechanical robot warrior called Mecha Mortis.",
-      "tags": ["mecha", "robot"]
-    },
-    {
-      "id": "p9",
+      "id": "p7",
       "title": "Sunrise",
       "kid": "aadhav",
-      "date": "2024-06-01",
+      "date": "2025-05-30",
       "image": "assets/paintings/aadhav_painting_morning_sunrise.jpg",
       "description": "A beautiful sunrise over the hills.",
       "tags": ["sunrise", "hills"]
     },
     {
-      "id": "p10",
-      "title": "Mr. P",
-      "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/paintings/aadhav_painting_mr_p.jpg",
-      "description": "A painted portrait titled Mr. P.",
-      "tags": ["portrait", "character"]
-    },
-    {
-      "id": "p11",
+      "id": "p8",
       "title": "Starry Night Sky",
       "kid": "aadhav",
-      "date": "2025-01-01",
+      "date": "2026-06-14",
       "image": "assets/paintings/aadhav_painting_night_forest.jpg",
       "description": "A serene night forest scene with a starry sky.",
       "tags": ["forest", "sky"]
     },
     {
-      "id": "p12",
+      "id": "p9",
       "title": "Pikachu",
       "kid": "aadhav",
-      "date": "2025-06-01",
+      "date": "2024-12-08",
       "image": "assets/paintings/aadhav_painting_pikachu_pokemon.jpg",
       "description": "A playful depiction of Pikachu from Pokémon.",
       "tags": ["pokemon", "character"]
-    },
-    {
-      "id": "p13",
-      "title": "Toothless",
-      "kid": "aadhav",
-      "date": "2025-06-01",
-      "image": "assets/paintings/aadhav_painting_toothless.jpg",
-      "description": "Toothless the Night Fury from How to Train Your Dragon.",
-      "tags": ["dragons", "httyd"]
     }
   ]
 }

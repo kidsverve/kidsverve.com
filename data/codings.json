@@ -4,12 +4,12 @@
   "items": [
     {
       "id": "c1",
-      "title": "Catch the Apples",
+      "title": "Minecraft",
       "kid": "aadhav",
-      "date": "2026-06-15",
+      "date": "2025-09-15",
       "type": "embed",
-      "image": "assets/codings/catch-apples.jpg",
-      "description": "Move the basket left and right to catch falling apples before they hit the ground!",
+      "image": "assets/codings/minecraft.jpg",
+      "description": "Explore and build in the world of Minecraft!",
       "embedUrl": "https://scratch.mit.edu/projects/10128407/embed",
       "links": [
         { "label": "Play on Scratch", "href": "https://scratch.mit.edu/projects/10128407" }
@@ -19,7 +19,7 @@
       "id": "c2",
       "title": "Maze Runner",
       "kid": "aadhav",
-      "date": "2026-05-30",
+      "date": "2024-06-27",
       "type": "card",
       "image": "assets/codings/maze-runner.jpg",
       "description": "Guide the glowing dot from start to finish through a tricky maze.",
@@ -32,7 +32,7 @@
       "id": "c3",
       "title": "Dancing Cat Animation",
       "kid": "guest",
-      "date": "2026-04-22",
+      "date": "2026-01-20",
       "type": "embed",
       "image": "assets/codings/dancing-cat.jpg",
       "description": "A funny cat that dances to the beat. Click the green flag to start the show!",
