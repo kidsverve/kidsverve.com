@@ -82,6 +82,24 @@
       "image": "assets/paintings/aadhav_painting_pikachu_pokemon.jpg",
       "description": "A playful depiction of Pikachu from Pokémon.",
       "tags": ["pokemon", "pikachu"]
+    },
+    {
+      "id": "p10",
+      "title": "Solar Eclipse",
+      "kid": "aadhav",
+      "date": "2025-11-22",
+      "image": "assets/paintings/aadhav_painting_solar_eclipse.jpg",
+      "description": "A captivating painting of a solar eclipse.",
+      "tags": ["astronomy", "eclipse"]
+    },
+    {
+      "id": "p11",
+      "title": "Spring Tree Blossoms",
+      "kid": "aadhav",
+      "date": "2026-03-15",
+      "image": "assets/paintings/aadhav_painting_spring_tree.jpg",
+      "description": "A beautiful painting of spring tree blossoms.",
+      "tags": ["spring", "blossoms"]
     }
   ]
 }
