@@ -374,6 +374,60 @@
       "image": "assets/drawings/aadhav_drawing_anime.jpg",
       "description": "A drawing inspired by anime.",
       "tags": ["anime", "eyes"]
+    },
+    {
+      "id": "d42"
+      "title": "Brawl stars",
+      "kid": "aadhav",
+      "date": "2026-07-14",
+      "image": "assets/drawings/aadhav_drawing_fanguard_brawler.jpg",
+      "description": "Mythic skin of Fang from brawl stars.",
+      "tags": ["brawler", "Fanguard"]
+    },
+    {
+      "id": "d43",
+      "title": "brawl stars",
+      "kid": "aadhav",
+      "date": "2025-09-24",
+      "image": "assets/drawings/aadhav_drawing_unochester_brawler.jpg",
+      "description": "Legendary skin of Chester from brawl stars.",
+      "tags": ["brawler", "UNO Chester"]
+    },
+    {
+      "id": "d44",
+      "title": "brawl stars",
+      "kid": "aadhav",
+      "date": "2025-10-12",
+      "image": "assets/drawings/aadhav_drawing_cursedkenji_brawler.jpg",
+      "description": "Legendary skin of Kenji from brawl stars",
+      "tags": ["brawler", "cursed Kenji"]
+    }, 
+    {
+      "id": "d45",
+      "title": "brawl stars",
+      "kid": "aadhav",
+      "date": "2025-04-27",
+      "image": "assets/drawings/aadhav_drawing_dekufang_brawler.jpg",
+      "description": "Epic skin of Fang from brawl stars",
+      "tags": ["brawler", "Deku Fang"]
+    }, 
+    {
+      "id": "d46",
+      "title": "Swapped",
+      "kid": "aadhav",
+      "date": "2026-06-07",
+      "image": "assets/drawings/aadhav_drawing_treewolfpup_swapped.jpg",
+      "description": "Tree Wolf Pup from the Disney movie swapped",
+      "tags": ["swapped", "tree wolf pup"]
+    },
+    {
+      "id": "d47",
+      "title": "Swapped",
+      "kid": "aadhav",
+      "date": "2026-08-09",
+      "image": "assets/drawings/aadhav_drawing_tree_wolf_pup_swapped.jpg",
+      "description": "Tree Wolf Pup from the Disney movie swapped",
+      "tags": ["swapped", "tree wolf pup"]
     }
   ]
 }
