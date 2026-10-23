@@ -100,6 +100,42 @@
       "image": "assets/paintings/aadhav_painting_spring_tree.jpg",
       "description": "A beautiful painting of spring tree blossoms.",
       "tags": ["spring", "blossoms"]
+    },
+    {
+      "id": "p12",
+      "title": "Tree on a Hill",
+      "kid": "aadhav",
+      "date": "2026-05-10",
+      "image": "assets/paintings/aadhav_painting_edge_tree.jpg",
+      "description": "A beautiful painting of a tree on a hill.",
+      "tags": ["tree", "hilltop"]
+    },
+    {
+      "id": "p13",
+      "title": "Flower Pot with a Panda",
+      "kid": "aadhav",
+      "date": "2026-07-15",
+      "image": "assets/paintings/aadhav_painting_flowerpot_panda.jpg",
+      "description": "Flower pot with a panda.",
+      "tags": ["flowerpot", "panda"]
+    },
+    {
+      "id": "p14",
+      "title": "Mountain Deer",
+      "kid": "aadhav",
+      "date": "2026-08-10",
+      "image": "assets/paintings/aadhav_painting_mountain_deer.jpg",
+      "description": "A beautiful painting of a mountain deer.",
+      "tags": ["mountain", "deer"]
+    },
+    {
+      "id": "p15",
+      "title": "Tree on a Hill",
+      "kid": "aadhav",
+      "date": "2026-05-10",
+      "image": "assets/paintings/aadhav_painting_tree_toucan.jpg",
+      "description": "A toucan on a tree",
+      "tags": ["tree", "toucan"]
     }
   ]
 }
